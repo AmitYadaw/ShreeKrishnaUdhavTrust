@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.banner {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #005bb5;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+.content {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
